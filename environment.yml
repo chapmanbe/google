@@ -1,0 +1,16 @@
+name: google
+channels:
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pandas
+  - keras
+  - scikit-learn
+  - pip
+  - seaborn
+  - jupyterlab
+  - pip:
+    - plaidml
+    - google-cloud-storage
+    - google-auth-oauthlib
+    - ibis-framework[postgres,bigquery,sqlite,mysql]
